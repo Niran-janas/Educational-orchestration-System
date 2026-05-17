@@ -1,0 +1,76 @@
+/* Custom College Management Styles */
+:root {
+    --primary-color: #2c5aa0;
+    --secondary-color: #f8b500;
+    --success-color: #28a745;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+}
+
+.btn {
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+}
+
+.card {
+    border: none;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+.list-group-item {
+    border: none;
+    padding: 15px 20px;
+    transition: all 0.3s ease;
+}
+
+.list-group-item:hover {
+    background-color: #f8f9fa;
+    transform: translateX(5px);
+}
+
+/* Header Animation */
+header h2 {
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+marquee {
+    font-size: 1.1rem;
+    padding: 10px 0;
+}
+
+/* Dashboard Stats */
+.bg-primary, .bg-success, .bg-info, .bg-warning, .bg-danger {
+    border-radius: 15px !important;
+}
+
+/* Responsive Footer */
+@media (max-width: 768px) {
+    footer .row > div {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    
+    marquee {
+        font-size: 1rem;
+    }
+}
+
+/* Button Animations */
+.animate__bounceIn {
+    animation-duration: 1s;
+}
+
+.btn-lg {
+    padding: 12px 30px;
+    border-radius: 25px;
+}
